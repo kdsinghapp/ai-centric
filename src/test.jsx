@@ -28,7 +28,7 @@ const App = () => {
 
     try {
       const response = await axios.post(
-        "https://technorizen.co.in/api/detect-phone",
+        "http://5.78.110.146:8001/detect-phone",
         formData,
         {
           headers: {
